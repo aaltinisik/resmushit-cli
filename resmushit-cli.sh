@@ -60,6 +60,8 @@ cli_output(){
 }
 
 check_update(){
+
+        return
 	_SCRIPT_NAME=`basename "$0"`
 
 	# Perform update verification once a day
